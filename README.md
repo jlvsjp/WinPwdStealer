@@ -1,4 +1,4 @@
-# firefox_decrypter
+# browser_password_hacker
 Get/dump chrome and firefox saved passwords.
 
 ## chrome
