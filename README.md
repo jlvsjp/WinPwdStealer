@@ -16,4 +16,4 @@ fored from https://github.com/Cr7-joker/Firefox_Decrypt
 ## AIO (All in one)
 support chrome/firefox/foxmail
 
-![image](http://github.com/jlvsjp/browser_password_hacker/raw/master/aio.jpg)
+[![aio](http://github.com/jlvsjp/browser_password_hacker/raw/master/aio.jpg)]
