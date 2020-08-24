@@ -1,17 +1,23 @@
-# browser_password_hacker
-Get/dump chrome and firefox saved passwords.
+# password_hacker
+
+Get/dump browser saved passwords, include chrome and firefox, etc.
 
 Only for Windows with released executable programs.
 
 ## chrome
 
-forked from https://github.com/cckuailong/HackChrome
-(bugfixed)
+Forked from https://github.com/cckuailong/HackChrome
+(bug fixed and add support 360chrome)
 
 ## firefox
 
-fored from https://github.com/Cr7-joker/Firefox_Decrypt
-(bugfixed)
+Fored from https://github.com/Cr7-joker/Firefox_Decrypt
+(bug fixed)
+
+## foxmail
+
+Reference to https://github.com/lim42snec/FoxmailDump
+
 
 ## AIO (All in one)
 support chrome/firefox/foxmail
