@@ -1,4 +1,4 @@
-# password_hacker
+# Password_Hacker
 
 Get/dump browser saved passwords, include chrome and firefox, etc.
 
