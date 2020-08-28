@@ -1,6 +1,6 @@
-# Password_Hacker
+# Windows Passwords Stealer
 
-Get/dump browser saved passwords, include chrome and firefox, etc.
+Get/dump browsers && foxmail saved passwords
 
 Only for Windows with released executable programs.
 
